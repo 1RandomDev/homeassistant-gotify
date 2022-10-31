@@ -1,0 +1,11 @@
+{
+    "domain": "gotify",
+    "name": "Gotify",
+    "documentation": "https://github.com/1RandomDev/homeassistant-gotify",
+    "dependencies": [],
+    "codeowners": ["@1RandomDev"],
+    "requirements": [],
+    "integration_type": "service",
+    "iot_class": "local_push",
+    "version": "1.0.0"
+  }
