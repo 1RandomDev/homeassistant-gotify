@@ -1,7 +1,8 @@
 {
-    "domain": "gotify",
-    "name": "Gotify",
+    "domain": "gotify_notifications",
+    "name": "Gotify Notifications",
     "documentation": "https://github.com/1RandomDev/homeassistant-gotify",
+    "issue_tracker": "https://github.com/1RandomDev/homeassistant-gotify/issues",
     "dependencies": [],
     "codeowners": ["@1RandomDev"],
     "requirements": [],
