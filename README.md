@@ -1,10 +1,12 @@
 # Gotify Notifications
 
-The `gotify` notification platform enables you to easily send notifications with a custom prioirty and extra information via [Gotify](https://gotify.net/).
+The `gotify` notification platform enables you to easily send notifications with a custom priority and extra information via [Gotify](https://gotify.net/).
 
 ### Installation
-The recommendet way to install the integration is via [HACS](https://hacs.xyz/). You can find it by searching for `Gotify Notifications`.
-If you want to install it manually download the repository as zip and extract it to the `<config_dir>/custom_components/` directory of HomeAssistant.
+#### HACS
+You can easily install and update the integration using [HACS](https://hacs.xyz/). Click the 3 dots and "Custom repositories", then enter `https://github.com/1RandomDev/homeassistant-gotify` as repository and select type `Integration`. After clicking "Add" the Gotify Notifications integration should be downloadable in the store.
+#### Manual
+If you want to install it manually just download the repository as zip and extract it into `<ha_config_dir>/custom_components/`.
 
 ### Configuration
 This integration exposes itself as a [notifications integration](https://www.home-assistant.io/integrations/notify/) and configured by adding the folowing snippet to the `configuration.yaml` file:
