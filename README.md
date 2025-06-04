@@ -14,6 +14,7 @@ notify:
     platform: gotify
     url: <gotify_url>
     token: <gotify_token>
+    verify_ssl: true # optional, default true
 ```
 Replace `<gotify_url>` and `<gotify_token>` with the url of your Gotify instance and the application token to be used.
 
