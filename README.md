@@ -17,6 +17,8 @@ notify:
     url: <gotify_url>
     token: <gotify_token>
     verify_ssl: true # optional, default true
+    msg_blacklist:   # optional, discard message if the text equals one of this strings
+      - TTS
 ```
 Replace `<gotify_url>` and `<gotify_token>` with the url of your Gotify instance and the application token to be used.
 
